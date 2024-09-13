@@ -21,7 +21,6 @@
     footer .f_contents .f_txt_cs_sns .f_cs {
         padding-right: 33px;
     }
-    
     header .left {margin-left: 20px;}
     main .contents {margin: 100px 20px 0;}
     main .holiencer, main .new, main .instagram {margin: 100px 0px;}
@@ -101,7 +100,6 @@
     }
     main .favorite .makeup a:nth-child(4) {margin-bottom: 0;}
     main .favorite .makeup a:nth-child(7), main .favorite .makeup a:nth-child(8) {display: none;}
-    main .pick .container {}
     main .pick .container .main_product {width: 383px;}
     main .pick .container .sub_product {
         width: 350px;
@@ -245,4 +243,3 @@
             font-size: 0.687rem;
         }
     }
-}

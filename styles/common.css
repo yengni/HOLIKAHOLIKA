@@ -11,10 +11,7 @@ header {
 header .left {display: flex; margin-left: 30px;}
 header .left .all_menu {width: 23px;}
 header .left .all_menu img {width: 100%;}
-header .left .all_menu .menu_btn {}
 header .left .all_menu .x {display: none; width: 100%;}
-header .left h1 {}
-header .left h1 a {}
 header .left h1 a img {
     margin-left: 20px;
     width: 85%;
@@ -28,7 +25,6 @@ header nav>a {
     color: #d4d4d4;
     font-weight: 600;
 }
-header nav>a:last-child {}
 header nav>a:hover {
     color: #9f8bd4;
 }
@@ -47,8 +43,6 @@ header .menu_bg .menu_list {
     justify-content: space-between;
     width: calc(100% - 40px);
     margin: 50px auto;
-}
-header .menu_bg .menu_list > li {
 }
 header .menu_bg .menu_list > li a:hover {
     color: #9f8bd4;
@@ -90,11 +84,10 @@ footer .f_menu1 {
     padding: 30px 160px;
 }
 footer .f_menu1 a {
-    font-size: 0.813rem; letter-spacing: 1.5;
+    font-size: 0.813rem;
     margin-right: 30px;}
 footer .f_menu1 a strong {color: #442e81; font-weight: 600;}
 footer .f_menu1 a:last-child {margin-right: 0;}
-footer .f_contents {}
 footer .f_contents .f_logo_menu2 {
     background-color: #fff;
     display: flex;
@@ -128,7 +121,6 @@ footer .f_contents .f_txt_cs_sns .f_txt p span {
     font-size: 0.813rem;
     color: #626262;
 }
-footer .f_contents .f_txt_cs_sns .f_cs {}
 footer .f_contents .f_txt_cs_sns .f_cs p {
     line-height: 3;
 }
@@ -151,5 +143,4 @@ footer .f_contents .f_txt_cs_sns .f_sns a {
 footer .f_contents .f_txt_cs_sns .f_sns a:last-child {
     margin-right: 0;
 }
-footer .f_contents .f_txt_cs_sns .f_sns a img {}
 /* footer 끝 */
