@@ -266,7 +266,10 @@ main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt .pri
 /* new 끝 */
 /* =================== 이벤트 ==================== */
 main .event .title_tabmenu .title {text-align: center;}
-main .event .title_tabmenu .title h2 span {margin-left: 4px;}
+main .event .title_tabmenu .title h2 span {
+    margin-left: 4px;
+    font-weight: 600;
+}
 main .event .banner {
     display: flex;
     justify-content: center;
@@ -282,7 +285,10 @@ main .event .banner a:hover img {
 /* ============인스타그램============ */
 main .instagram {margin: 120px 0;}
 main .instagram .title_tabmenu .title {text-align: center;}
-main .instagram .title_tabmenu .title h2 span {color: #333;}
+main .instagram .title_tabmenu .title h2 span {
+    color: #333;
+    font-weight: 600;
+}
 main .instagram .title_tabmenu .title h2 span img {margin-left: 4px;}
 main .instagram .title_tabmenu .title p {
     color: #626262;
