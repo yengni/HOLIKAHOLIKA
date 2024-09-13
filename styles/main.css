@@ -224,7 +224,8 @@ main .new .container .new_s {
     width: 100%;
 }
 main .new .container .swiper .swiper-wrapper .swiper-slide .product {width: 100%;}
-main .new .container .swiper .swiper-wrapper .swiper-slide .product img {width: 100%;}
+main .new .container .swiper .swiper-wrapper .swiper-slide .product img {width: 100%; transition: all 0.2s;}
+main .new .container .swiper .swiper-wrapper .swiper-slide .product:hover img {opacity: 80%;}
 main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt {
     position: absolute;
     bottom: 20px; left: 20px;
@@ -289,4 +290,9 @@ main .instagram .title_tabmenu .title p {
 }
 /* 인스타 자바스크립트 */
 main .instagram .container {position: relative;}
-main .instagram .container .insta_s .swiper-wrapper .swiper-slide .insta_photo img {width: 100%;}
+main .instagram .container .insta_s .swiper-wrapper .swiper-slide .insta_photo img {
+    width: 100%;
+    transition: all 0.2s;
+    border-radius: 10px;
+}
+main .instagram .container .insta_s .swiper-wrapper .swiper-slide .insta_photo:hover img {opacity: 70%;}
