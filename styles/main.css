@@ -236,7 +236,8 @@ main .pick .container .sub_product > a .photo .pick_txt .price del {
 /* ================= 배너 ================= */
 main .holiencer {margin: 120px 0px;}
 main .holiencer a {}
-main .holiencer a img {width: 100%;}
+main .holiencer a img {width: 100%; transition: all 0.2s;}
+main .holiencer a:hover img {opacity: 80%;}
 main .holiencer .mb {display: none;}
 /* 배너 끝 */
 /* ================== new ================== */
