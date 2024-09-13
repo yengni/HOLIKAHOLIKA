@@ -1,0 +1,247 @@
+@media screen and (max-width: 1350px){
+    header .btn_search {margin-right: 20px;}
+    main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt p {
+        margin: 16px 0 16px;
+        font-size: 0.875rem;
+    }
+    main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt h3 {
+        font-size: 1.125rem;
+    }
+    footer .f_menu1 {
+        padding: 30px 20px;
+    }
+    footer .f_contents .f_logo_menu2 .f_logo {margin-left: 20px;}
+    footer .f_contents .f_logo_menu2 .f_menu2 {
+        margin-right: 20px;
+    }
+    footer .f_contents .f_logo_menu2 .f_menu2 a {margin-right: 20px;}
+    footer .f_contents .f_txt_cs_sns {
+        padding: 30px 20px;
+    }
+    footer .f_contents .f_txt_cs_sns .f_cs {
+        padding-right: 33px;
+    }
+    
+    header .left {margin-left: 20px;}
+    main .contents {margin: 100px 20px 0;}
+    main .holiencer, main .new, main .instagram {margin: 100px 0px;}
+    main .pick .container .main_product {margin-right: 20px;}
+    main .pick .container .sub_product > a:nth-child(1), main .pick .container .sub_product > a:nth-child(2), main .pick .container .sub_product > a:nth-child(3) {margin-bottom: 20px;}
+    main .new .title_tabmenu {margin: 0px 20px;}
+}
+@media screen and (max-width: 1024px){
+    footer .f_contents {
+        position: relative;
+    }
+    footer .f_contents .f_logo_menu2 {
+        flex-flow: column;
+        align-items: baseline;
+    }
+    footer .f_contents .f_logo_menu2 .f_logo {margin-bottom: 20px;}
+    footer .f_contents .f_logo_menu2 .f_menu2 {flex-flow: row wrap;;}
+    footer .f_contents .f_logo_menu2 .f_menu2 a img {width: 100%;}
+    footer .f_contents .f_txt_cs_sns .f_sns {
+        position: absolute; bottom: 30px; right: 20px;
+    }
+}
+@media screen and (max-width: 900px){
+    main .pick .container .main_product .photo .pick_txt h3 {font-size: 1.125rem; margin-bottom: 10px;}
+    main .pick .container .main_product .photo .pick_txt p {font-size: 0.875rem;}
+    main .pick .container .main_product .photo .pick_txt .price {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 800px){
+    header {
+        height: 75px;
+        flex-flow: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+    header .left {margin-bottom: 13px;}
+    header nav {
+        width: calc(100% - 40px);
+    }
+    header nav>a {
+        font-size: 0.938rem;
+    }
+    header .btn_search {
+        position: absolute;
+        top: 10%; right: 0px;
+    }
+    header .menu_bg {
+        top: 75px;
+    }
+    header .menu_bg .menu_list {
+        flex-flow: row wrap;
+        width: calc(100% - 80px);
+    }
+    header .menu_bg .menu_list > li {
+        width: calc((100% - 20px) / 2);
+        margin-bottom: 60px;
+    }
+    main .visual {margin-top: 75px;}
+    main .visual .mv_pc {display: none;}
+    main .visual .mv_mobile {display: block;}
+    main .contents {margin: 60px 20px 0;}
+    main .holiencer, main .new, main .instagram {margin: 60px 0px 0;}
+    main .favorite .title_tabmenu {
+        flex-flow: column;
+        align-items: baseline;
+    }
+    main .favorite .title_tabmenu .tabmenu {
+        margin: 20px auto;
+    }
+    main .favorite .makeup {
+        margin-top: 10px;
+    }
+    main .favorite .makeup a {
+        text-align: center;
+        width: calc((100% - 20px) / 3);
+    }
+    main .favorite .makeup a:nth-child(4) {margin-bottom: 0;}
+    main .favorite .makeup a:nth-child(7), main .favorite .makeup a:nth-child(8) {display: none;}
+    main .pick .container {}
+    main .pick .container .main_product {width: 383px;}
+    main .pick .container .sub_product {
+        width: 350px;
+    }
+    main .pick .container .sub_product > a {
+        width: calc((100% - 20px) / 2);
+    }
+    main .pick .container .sub_product > a:nth-child(3) {margin-bottom: 0px;}
+    main .pick .container .sub_product > a:nth-child(5), main .pick .container .sub_product > a:nth-child(6){display: none;}
+    main .holiencer .mb {display: block;}
+    main .holiencer .pc {display: none;}
+    footer {margin-top: 80px;}
+    footer .f_contents .f_logo_menu2 .f_menu2 {
+        width: calc(100% - 40px);
+    }
+}
+@media screen and (max-width: 600px){
+    main .favorite .makeup a {
+        width: calc((100% - 20px) / 2);
+    }
+    main .pick .container {
+        flex-flow: column;
+    }
+    main .pick .container .main_product {margin-right: 0; width: 100%; margin-bottom: 20px;}
+    main .pick .container .sub_product {width: 100%;}
+    main .pick .container .sub_product > a {
+        width: calc((100% - 20px) / 3);
+    }
+    main .pick .container .sub_product > a:nth-child(5), main .pick .container .sub_product > a:nth-child(6){display: block;}
+    main .event .banner {
+        display: flex;
+        flex-flow: column;
+    }
+    main .event .banner a:first-child {margin-right: 0px;
+    margin-bottom: 20px;}
+    footer {padding-bottom: 70px;}
+    footer .f_contents .f_logo_menu2 .f_menu2 a {width: 110px;}
+    footer .f_contents .f_txt_cs_sns {
+        flex-flow: column;
+    }
+    footer .f_contents .f_txt_cs_sns .f_txt {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer .f_contents .f_txt_cs_sns .f_cs p {
+        line-height: 2;
+    }
+    footer .f_contents .f_txt_cs_sns .f_txt p span {
+        position: absolute; bottom: -10px;
+    }
+    footer .f_contents .f_txt_cs_sns .f_sns {
+        position: absolute; bottom: -50px;
+        left: 20px;
+    }
+}
+@media screen and (max-width: 450px){
+    header nav>a {
+        font-size: 0.812rem;
+    }
+    main .contents .title_tabmenu .title h2 {
+        font-size: 1rem;
+    }
+    main .contents .title_tabmenu .title > p {
+        font-size: 0.687rem;
+    }
+    main .contents .container .swiper-pagination .swiper-pagination-bullet {
+        border-radius: 0; margin: 0; width: 40px; height: 3px;
+        transition: all 0.3s;
+    }
+    main .favorite .title_tabmenu .tabmenu li a {
+        font-size: 0.75rem;
+    }
+    main .favorite .makeup a h3 {font-size: 0.75rem;}
+    main .favorite .makeup a .price {
+        font-size: 0.687rem;
+    }
+    main .contents .more span {
+        font-size: 0.687rem;
+    }
+    main .contents .more span > img {width: 70%;}
+    main .pick .container .main_product .photo .pick_txt h3 {font-size: 1rem;}
+    main .pick .container .main_product .photo .pick_txt p {font-size: 0.75rem;}
+    main .pick .container .main_product .photo .pick_txt .price {
+        font-size: 0.875rem;
+    }
+    main .pick .container .main_product .photo .pick_txt .price del {font-size: 0.75rem;}
+    main .pick .container .sub_product > a .photo .pick_txt h3 {
+        font-size: 0.75rem;
+    }
+    main .pick .container .sub_product > a .photo .pick_txt .price strong {
+        font-size: 0.687rem;
+    }
+    main .pick .container .sub_product > a .photo .pick_txt .price del {
+        font-size: 0.687rem;
+    }
+    main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt h3 {
+        font-size: 1rem;
+    }
+    main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt p {
+        font-size: 0.75rem;
+        margin: 10px 0 10px;
+    }
+    main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt strong {
+        font-size: 0.875rem;
+    }
+    main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt del {
+        font-size: 0.75rem;
+    }
+    footer .f_menu1 {
+        padding: 20px;
+    }
+    footer .f_menu1 a {
+        font-size: 0.687rem;
+        margin-right: 20px;}
+    footer .f_contents .f_txt_cs_sns .f_txt p {
+        font-size: 0.687rem;
+        line-height: 2;
+    }
+    footer .f_contents .f_txt_cs_sns .f_txt p span {
+        font-size: 0.687rem;
+    }
+    footer .f_contents .f_txt_cs_sns .f_cs p strong {
+        font-size: 0.75rem;
+    }
+    footer .f_contents .f_txt_cs_sns .f_cs p {
+        font-size: 0.687rem;
+    }
+    footer .f_contents .f_txt_cs_sns .f_cs p:last-child {
+        font-size: 0.687rem;
+    }
+    @media screen and (max-width: 380px){
+        main .pick .container .sub_product > a .photo .pick_txt h3 {
+            font-size: 0.678rem;
+            line-height: 1.2;
+        }
+        main .pick .container .sub_product > a .photo .pick_txt .price strong {
+            font-size: 0.687rem;
+        }
+        main .pick .container .sub_product > a .photo .pick_txt .price del {
+            font-size: 0.687rem;
+        }
+    }
+}

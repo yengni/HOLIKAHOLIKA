@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홀리카홀리카</title>
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- js -->
+    <script src="scripts/jquery-3.7.1.min.js" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="scripts/common.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <a href="#" class="all_menu">
+                <img src="img/menu.png" class="menu_btn" alt="전체메뉴">
+                <img src="img/x.png" class="x" alt="전체메뉴 닫기">
+            </a>
+            <h1><a href="index.html"><img src="img/logo.png" alt="홀리카홀리카"></a></h1>
+        </div>
+        <nav>
+            <a href="#">베스트</a>
+            <a href="#">신상</a>
+            <a href="#">HOT DEAL</a>
+            <a href="#">이벤트</a>
+            <a href="#">매장안내</a>
+            <a href="#">브랜드</a>
+        </nav>
+        <a href="#" class="btn_search"><img src="img/search.png" alt="검색"></a>
+        <!-- 전체메뉴 클릭시 나오는 메뉴 -->
+        <div class="menu_bg">
+            <ul class="menu_list">
+                <li><a href="#">스킨케어</a>
+                    <ul class="sub_list">
+                        <li><a href="#">토너</a></li>
+                        <li><a href="#">에멀션</a></li>
+                        <li><a href="#">에센스 / 세럼 / 앰플</a></li>
+                        <li><a href="#">크림</a></li>
+                        <li><a href="#">오일</a></li>
+                        <li><a href="#">미스트</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">선케어</a>
+                    <ul class="sub_list">
+                        <li><a href="#">선크림</a></li>
+                        <li><a href="#">선스틱</a></li>
+                        <li><a href="#">선쿠션</a></li>
+                        <li><a href="#">선로션</a></li>
+                        <li><a href="#">선스프레이</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">메이크업</a>
+                    <ul class="sub_list">
+                        <li><a href="#">베이스</a></li>
+                        <li><a href="#">아이</a></li>
+                        <li><a href="#">립</a></li>
+                        <li><a href="#">블러셔</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">클렌징</a>
+                    <ul class="sub_list">
+                        <li><a href="#">클렌징폼</a></li>
+                        <li><a href="#">클렌징티슈</a></li>
+                        <li><a href="#">클렌징오일 / 워터</a></li>
+                        <li><a href="#">클렌징크림 / 밤</a></li>
+                        <li><a href="#">립앤아이리무버</a></li>
+                        <li><a href="#">필링 / 스크랩</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">헤어 / 바디 / 향수</a>
+                    <ul class="sub_list">
+                        <li><a href="#">헤어케어</a></li>
+                        <li><a href="#">헤어컬러링</a></li>
+                        <li><a href="#">바디클렌저</a></li>
+                        <li><a href="#">바디케어</a></li>
+                        <li><a href="#">핸드 / 풋</a></li>
+                        <li><a href="#">향수</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">커뮤니티</a>
+                    <ul class="sub_list">
+                        <li><a href="#"><strong>로그인</strong></a></li>
+                        <li><a href="#"><strong>회원가입</strong></a></li>
+                        <li><a href="#">마이페이지</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">홀리언서</a></li>
+                        <li><a href="#">멤버십</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header><!-- header 끝 -->
+    <main>
+        <div class="visual">
+            <img src="img/mainvisual.jpg" class="mv_pc" alt="손 끝에 멜팅, 입술 위에 몽글 블러링 Melting Blur Lip Pot">
+            <img src="img/mainvisual_mobile.jpg" class="mv_mobile" alt="손 끝에 멜팅, 입술 위에 몽글 블러링 Melting Blur Lip Pot 모바일">
+        </div><!-- mainvisual 끝 -->
+        <section class="contents favorite">
+            <div class="title_tabmenu">
+                <div class="title">
+                    <h2><span>홀리카</span>'s 인기템 !</h2>
+                    <p>홀리카홀리카의 유형별 인기 상품이에요.</p>
+                </div>
+                <ul class="tabmenu">
+                    <li><a href="#"><span>메이크업</span></a></li>
+                    <li><a href="#">선케어</a></li>
+                    <li><a href="#">스킨케어</a></li>
+                    <li><a href="#">헤어</a></li>
+                    <li><a href="#">클렌징</a></li>
+                </ul>
+            </div>
+            <div class="container makeup">
+                <a href="#">
+                    <p class="photo"><img src="img/makeup1.png" alt="멜팅 블러 립 팟"></p>
+                    <h3>멜팅 블러 립 팟</h3>
+                    <p class="price">14,000원</p>
+                </a>
+                <a href="#">
+                    <p class="photo"><img src="img/makeup2.png" alt="래쉬 코렉팅 마스카라 리무버 기획세트"></p>
+                    <h3>NEW 래쉬 코렉팅<br>마스카라 리무버 기획세트</h3>
+                    <p class="price">14,400원 <del>16,000원</del></p>
+                </a></li>
+                <a href="#">
+                    <p class="photo"><img src="img/makeup3.png" alt="마이페이브 피스 아이프로즌"></p>
+                    <h3>마이페이브 피스 아이프로즌</h3>
+                    <p class="price">5,600원 <del>8,000원</del></p>
+                </a>
+                <a href="#">
+                    <p class="photo"><img src="img/makeup4.png" alt="멜로우 글라이딩 슬림 라이너"></p>
+                    <h3>멜로우 글라이딩 슬림 라이너</h3>
+                    <p class="price">10,000원</p>
+                </a>
+                <a href="#">
+                    <p class="photo"><img src="img/makeup5.png" alt="마이페이브 무드 아이 팔레트"></p>
+                    <h3>마이페이브 무드 아이 팔레트</h3>
+                    <p class="price">21,000원 <del>28,000원</del></p>
+                </a>
+                <a href="#">
+                    <p class="photo"><img src="img/makeup6.png" alt="하트크러쉬 베어 글레이즈 틴트"></p>
+                    <h3>하트크러쉬<br>베어 글레이즈 틴트</h3>
+                    <p class="price">9,800원 <del>14,000원</del></p>
+                </a>
+                <a href="#">
+                    <p class="photo"><img src="img/makeup7.png" alt="본듀 립 쉬어"></p>
+                    <h3>본듀 립 쉬어</h3>
+                    <p class="price">15,000원</p>
+                </a>
+                <a href="#">
+                    <p class="photo"><img src="img/makeup8.png" alt="틴티드 밀크 크림 블러쉬"></p>
+                    <h3>틴티드 밀크 크림 블러쉬</h3>
+                    <p class="price">17,000원</p>
+                </a>
+            </div>
+            <a href="#" class="more">
+                <span>더보기</span><span><img src="img/icon_arrow.png" alt=""></span>
+            </a>
+        </section> <!-- favorite 끝 -->
+        <section class="contents pick">
+            <div class="title_tabmenu">
+                <div class="title">
+                    <h2><span>홀리카</span>'s PICK !</h2>
+                    <p>홀리카홀리카 MD가 직접 고른 추천템이에요.</p>
+                </div>
+            </div>
+            <div class="container">
+                <a href="#" class="product main_product">
+                    <div class="photo">
+                        <img src="img/pick1.png" alt="알로에 워터프루프 선크림">
+                        <div class="pick_txt">
+                            <h3>[1+1] 알로에 워터프루프 선크림</h3>
+                            <p>알로에잎 추출물 포함 수분 에센스 성분 70% 함유<br>수분 가득 촉촉한 선크림</p>
+                            <div class="price">
+                                <strong>16,000원</strong>
+                                <del>32,000원</del>
+                            </div>
+                        </div>
+                    </div>
+                </a> <!-- main_product 끝 -->
+                <div class="product sub_product">
+                    <a href="#">
+                        <div class="photo">
+                            <img src="img/pick2.png" alt="틴티드 밀크 크림 블러쉬">
+                            <div class="pick_txt">
+                                <h3>틴티드 밀크 크림 블러쉬</h3>
+                                <div class="price">
+                                    <strong>11,900원</strong>
+                                    <del>17,000원</del>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="photo">
+                            <img src="img/pick3.png" alt="메이크업 선크림 기획세트 SPF50+ PA+++">
+                            <div class="pick_txt">
+                                <h3>메이크업 선크림 기획세트 SPF50+ PA+++</h3>
+                                <div class="price">
+                                    <strong>11,000원</strong>
+                                    <del>22,000원</del>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="photo">
+                            <img src="img/pick4.png" alt="레스온스킨 판테바이블 비건 앰플">
+                            <div class="pick_txt">
+                                <h3>레스온스킨 판테바이블 비건 앰플</h3>
+                                <div class="price">
+                                    <strong>28,000원</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="photo">
+                            <img src="img/pick5.png" alt="레스온스킨 판테바이블 비건 크림 더블기획">
+                            <div class="pick_txt">
+                                <h3>레스온스킨 판테바이블 비건 크림 더블기획</h3>
+                                <div class="price">
+                                    <strong>28,000원</strong>
+                                    <del>56,000원</del>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="photo">
+                            <img src="img/pick6.png" alt="NEW 래쉬 코렉팅 마스카라 리무버 기획세트">
+                            <div class="pick_txt">
+                                <h3>NEW 래쉬 코렉팅 마스카라 리무버 기획세트</h3>
+                                <div class="price">
+                                    <strong>14,400원</strong>
+                                    <del>16,000원</del>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="photo">
+                            <img src="img/pick7.png" alt="마이페이브 피스 아이 섀도우">
+                            <div class="pick_txt">
+                                <h3>마이페이브 피스 아이 섀도우</h3>
+                                <div class="price">
+                                    <strong>4,500원</strong>
+                                    <del>6,000원</del>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="more">
+                <span>더보기</span><span><img src="img/icon_arrow.png" alt=""></span>
+            </a>
+        </section><!-- cont2 끝 -->
+        <section class="contents holiencer">
+            <a href="#" class="pc"><img src="img/holiencer.png" alt="홀리카에 Holic! 홀리언서 도전하고 활동 혜택 지원받자!"></a>
+            <a href="#" class="mb"><img src="img/holiencer_mb.png" alt="홀리카에 Holic! 홀리언서 도전하고 활동 혜택 지원받자!"모바일버전></a>
+        </section><!-- cont3 끝 -->
+        <section class="contents new">
+            <div class="title_tabmenu">
+                <div class="title">
+                    <h2><span>홀리카</span>'s 신상템 !</h2>
+                </div>
+            </div>
+            <!-- 신상템 자바스크립트 플러그인 -->
+            <div class="container">
+                <div class="swiper new_s">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#" class="product">
+                                <img src="img/new1.png" alt="알로에 하이드로 포뮬라 96% 수딩젤 250ml">
+                                <div class="new_txt">
+                                    <h3>알로에 하이드로 포뮬라 96% 수딩젤 250ml</h3>
+                                    <p>비건으로 새롭게 태어난 수분 진정 알로에</p>
+                                    <div class="price">
+                                        <strong>7,800원</strong>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="product">
+                                <img src="img/new2.png" alt="마이페이브 피스아이프로즌">
+                                <div class="new_txt">
+                                    <h3>마이페이브 피스 아이프로즌</h3>
+                                    <p>아이시함 속에 숨겨진<br>유니크한 반전 컬러글리터</p>
+                                    <div class="price">
+                                        <strong>5,600원</strong>
+                                        <del>8,000원</del>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="product">
+                                <img src="img/new3.png" alt="알로에 쿨링 선스틱 SPF50+ PA++++">
+                                <div class="prod_txt new_txt">
+                                    <h3>알로에 쿨링 선스틱 SPF50+ PA++++</h3>
+                                    <p>비건으로 새롭게 태어난 수분 진정 알로에</p>
+                                    <div class="price">
+                                        <strong>26,000원</strong>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="product">
+                                <img src="img/new4.png" alt="데빌스 플럼퍼">
+                                <div class="new_txt">
+                                    <h3>데빌스 플럼퍼</h3>
+                                    <p>치명적이지만 유혹적인 독보적 플럼핑</p>
+                                    <div class="price">
+                                        <strong>8,900원</strong>
+                                        <del>12,000원</del>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- swiper-button에는 position:absolute 내장 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section><!-- cont4 끝 -->
+        <section class="contents event">
+            <div class="title_tabmenu">
+                <div class="title">
+                    <h2>Event<span><img src="img/icon_party.png" alt=""></span></h2>
+                </div>
+            </div>
+            <div class="container banner">
+                <a href="#"><img src="img/bn1.png" alt="신규가입 혜택 즉시 할인 쿠폰 3,000원"></a>
+                <a href="#"><img src="img/bn2.png" alt="알로에 썸머 세일"></a>
+            </div>
+            <a href="#" class="more">
+                <span>더보기</span><span><img src="img/icon_arrow.png" alt=""></span>
+            </a>
+        </section> <!-- event 끝 -->
+        <section class="contents instagram">
+            <div class="title_tabmenu">
+                <div class="title">
+                    <h2><span>Instagram</span><span><img src="img/icon_insta2.png" alt=""></span></h2>
+                    <p>@holikaholika_official</p>
+                </div>
+            </div>
+            <!-- 인스타 자바스크립트 플러그인 -->
+            <div class="container">
+                <div class="swiper insta_s">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#" class="insta_photo">
+                                <img src="img/insta1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="insta_photo">
+                                <img src="img/insta2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="insta_photo">
+                                <img src="img/insta3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="insta_photo">
+                                <img src="img/insta4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="insta_photo">
+                                <img src="img/insta5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="insta_photo">
+                                <img src="img/insta6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="insta_photo">
+                                <img src="img/insta7.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- swiper-button에는 position:absolute 내장 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="f_menu1">
+            <a href="#">이용약관</a>
+            <a href="#"><strong>개인정보처리방침</strong></a>
+            <a href="#">이용안내</a>
+            <a href="#">매장개설문의</a>
+            <a href="#">Global Business</a>
+            <a href="#">쿠폰번호 입력</a>
+        </div>
+        <div class="f_contents">
+            <div class="f_logo_menu2">
+                <div class="f_logo"><img src="img/logo.png" alt=""></div>
+                <div class="f_menu2">
+                    <a href="#"><img src="img/fmenu1.png" alt="멤버십"></a>
+                    <a href="#"><img src="img/fmenu2.png" alt="매장안내"></a>
+                    <a href="#"><img src="img/fmenu3.png" alt="고객센터"></a>
+                    <a href="#"><img src="img/fmenu4.png" alt="브랜드스토리"></a>
+                    <a href="#"><img src="img/fmenu5.png" alt="이벤트"></a>
+                </div>
+            </div>
+            <div class="f_txt_cs_sns">
+                <div class="f_txt">
+                    <p>엔프라니(주) 대표 : 김태훈</p>
+                    <p>주소 : 인천광역시 중구 축항대로296번길 88, 1층</p>
+                    <p>사업자등록번호 : 104-81-60935 통신판매업 신고번호 : 제 2015-인천중구-0013호</p>
+                    <p>개인정보 관리 책임자 : 양경모</p>
+                    <p>저희 쇼핑몰은 고객님의 안전거래를 위해 무통장입금 거래에 대해 (주)KG이니시의 INPAY 에스크로 구매 안전 서비스를 제공하고 있습니다.</p>
+                    <p><span>COPYRIGHT &copy; HOILKAHOLIKA ALL RIGHTS RESERVED.</span></p>
+                </div>
+                <div class="f_cs">
+                    <p><strong>CS CENTER 070 - 5014 - 0324</strong></p>
+                    <p>고객만족팀(제품,매장 문의) 080 - 757 - 1399</p>
+                    <p>상담시간 10:00 ~ 16:00 </p>
+                    <p>(점심시간 12:00 ~13:00<br>
+                        주말 및 공휴일 휴무)</p>
+                </div>
+                <div class="f_sns">
+                    <a href="#"><img src="img/icon_insta1.png" alt="인스타"></a>
+                    <a href="#"><img src="img/icon_youtube.png" alt="유튜브"></a>
+                    <a href="#"><img src="img/icon_blog.png" alt="블로그"></a>
+                    <a href="#"><img src="img/icon_facebook.png" alt="페이스북"></a>
+                </div>
+            </div>
+        </div>
+    </footer><!-- footer 끝 -->
+</body>
+</html>

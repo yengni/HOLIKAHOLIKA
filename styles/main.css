@@ -1,0 +1,337 @@
+
+main {}
+/* mainvisual 시작 */
+main .visual {}
+main .visual img {width: 100%;}
+main .visual .mv_mobile {display: none;}
+/* ====================공통 class==================== */
+main .contents {
+    margin: 120px 160px 0px;
+}
+main .contents .title_tabmenu {
+}
+main .contents .title_tabmenu .title {}
+main .contents .title_tabmenu .title h2 {
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+main .contents .title_tabmenu .title h2 span {
+    color: #442e81;
+    font-weight: 600;
+}
+main .contents .title_tabmenu .title > p {
+    font-size: 0.875rem;
+    margin-top: 12px;
+}
+main .contents .container {margin-top: 30px;}
+main .contents .more {
+    display: flex; justify-content: right;
+    margin-top: 20px;
+}
+main .contents .more:hover span {color: #999;}
+main .contents .more span {
+    color: #666;
+    margin-right: 3px;
+    font-size: 0.875rem;
+}
+main .contents .more span > img {width: 100%;}
+main .contents .swiper-button-prev {
+    color: #333;
+    top: 50%; left: 10%;
+}
+main .contents .container .swiper-button-next {
+    color: #333; 
+    top: 50%; right: 10%;
+}
+main .contents .container .swiper-pagination {
+    bottom: -20px;
+}
+main .contents .container .swiper-pagination .swiper-pagination-bullet {
+    border-radius: 0; margin: 0; width: 60px; height: 3px;
+    transition: all 0.3s;
+}
+main .contents .container .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #442e81;
+}
+/* =====================개별====================== */
+/* 인기상품 */
+main .favorite {}
+main .favorite .title_tabmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+main .favorite .title_tabmenu .tabmenu {
+    display: flex;
+}
+main .favorite .title_tabmenu .tabmenu li {
+    margin-right: 20px;
+}
+main .favorite .title_tabmenu .tabmenu li a span {
+    color: #442e81;
+    font-weight: 500;
+    border-bottom: 1px solid #442e81;
+}
+main .favorite .title_tabmenu .tabmenu li:last-child {
+    margin-right: 0px;
+}
+main .favorite .title_tabmenu .tabmenu li a {
+    font-size: 0.875rem;
+}
+main .favorite .title_tabmenu .tabmenu li:hover a {
+    color: #442e81;
+    font-weight: 500;
+}
+main .favorite .makeup {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+main .favorite .makeup a {
+    text-align: center;
+    width: calc((100% - 20px) / 4);
+}
+main .favorite .makeup a:nth-child(1), main .favorite .makeup a:nth-child(2), main .favorite .makeup a:nth-child(3), main .favorite .makeup a:nth-child(4) {margin-bottom: 30px;}
+main .favorite .makeup a .photo {
+}
+main .favorite .makeup a .photo img {
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+main .favorite .makeup a h3 {
+    font-weight: 600;
+    margin: 20px 0 10px;
+    line-height: 1.2;
+    transition: all 0.2s;
+}
+main .favorite .makeup a .price {
+    font-size: 0.875rem;
+    font-weight: 600;
+} 
+main .favorite .makeup a .price del {
+    color: #666; margin-left: 5px;
+}
+main .favorite .makeup a:hover .photo img {
+    opacity: 80%;
+}
+main .favorite .makeup a:hover h3 {
+    color: #442e81;
+}
+/*==================추천상품===================*/
+main .pick {}
+main .pick .title_tabmenu {}
+main .pick .title_tabmenu .title {}
+main .pick .title_tabmenu .title h2 span {}
+main .pick .title_tabmenu .title > p {}
+main .pick .container {   /* ------------------ */
+    display: flex; 
+    justify-content: space-between;
+}
+/* ==============공통_product============== */
+main .pick .container .product {}
+main .pick .container .product a {
+}
+main .pick .container .product .photo {
+    position: relative;
+}
+main .pick .container .product .photo img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 2px #ddd ;
+}
+main .pick .container .product .photo .pick_txt {
+    position: absolute;
+    bottom: 7%; right: 7%;
+    z-index: 200;
+    text-align: right;
+    opacity: 0;
+    transition: all 0.3s;
+    margin-left: 3%;
+}
+main .pick .container .product .photo .pick_txt h3 {
+    color: #fff;
+}
+main .pick .container .product .photo .pick_txt p {
+    color: #fff;
+    font-weight: 200;
+    line-height: 1.5;
+}
+main .pick .container .product .photo .pick_txt .price {
+    
+}
+main .pick .container .product .photo .pick_txt .price strong {
+    background-color: #7E3AD8;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    padding: 1px 2px 3px;
+}
+main .pick .container .product .photo .pick_txt .price del {
+    color: #fff;
+    font-size: 0.875rem;
+    margin-left: 5px;
+}
+main .pick .container .product .photo::after {
+    content: '';
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    position: absolute;
+    top: 0; left: 0;
+    display: block;
+    opacity: 0;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+main .pick .container .product .photo:hover:after {
+    opacity: 1;}
+main .pick .container .product .photo:hover .pick_txt {opacity: 1;}
+/* ==============main_product============== */
+main .pick .container .main_product {margin-right: 45px; width: 655px;}
+main .pick .container .main_product .photo {}
+main .pick .container .main_product .photo img {}
+main .pick .container .main_product .photo .pick_txt {}
+main .pick .container .main_product .photo .pick_txt h3 {
+    font-size: 1.22rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+main .pick .container .main_product .photo .pick_txt p {
+}
+main .pick .container .main_product .photo .pick_txt .price {margin-top: 25px;}
+main .pick .container .main_product .photo .pick_txt .price strong {
+    font-weight: 500;
+}
+main .pick .container .main_product .photo .pick_txt .price del {}
+/* ==============sub_product============== */
+main .pick .container .sub_product {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 900px;
+}
+main .pick .container .sub_product > a {
+    width: calc((100% - 45px) / 3);
+}
+main .pick .container .sub_product > a:nth-child(1), main .pick .container .sub_product > a:nth-child(2), main .pick .container .sub_product > a:nth-child(3) {margin-bottom: 35px;}
+main .pick .container .sub_product > a .photo {}
+main .pick .container .sub_product > a .photo img {}
+main .pick .container .sub_product > a .photo .pick_txt {padding-left: 10px;}
+main .pick .container .sub_product > a .photo .pick_txt h3 {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+main .pick .container .sub_product > a .photo .pick_txt .price {
+    margin-top: 5px;
+}
+main .pick .container .sub_product > a .photo .pick_txt .price strong {
+    font-size: 0.75rem;
+}
+main .pick .container .sub_product > a .photo .pick_txt .price del {
+    font-size: 0.75rem;
+}
+/* 추천템 끝 */
+/* ================= 배너 ================= */
+main .holiencer {margin: 120px 0px;}
+main .holiencer a {}
+main .holiencer a img {width: 100%;}
+main .holiencer .mb {display: none;}
+/* 배너 끝 */
+/* ================== new ================== */
+main .new {
+    margin: 120px 0;
+}
+main .new .title_tabmenu {margin: 0px 160px;}
+main .new .title_tabmenu title {}
+main .new .title_tabmenu title h2 {}
+main .new .title_tabmenu title h2 span {} 
+/* =================신상템 자바스크립트================== */
+main .new .container {
+    position: relative;
+}
+main .new .container .new_s {
+    width: 100%;
+}
+main .new .container .swiper .swiper-wrapper {}
+main .new .container .swiper .swiper-wrapper .swiper-slide {
+}
+main .new .container .swiper .swiper-wrapper .swiper-slide .product {width: 100%;}
+main .new .container .swiper .swiper-wrapper .swiper-slide .product img {width: 100%;}
+main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt {
+    position: absolute;
+    bottom: 20px; left: 20px;
+    z-index: 200;
+    transition: all 0.3s;
+    padding: 20px 20px 0 0;
+}
+main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt h3 {
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    width: max-content;
+}
+main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt p {
+    margin: 16px 0 16px;
+    color: #000;
+    line-height: 1.5;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    width: max-content;
+}
+main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt .price {}
+main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt .price strong {
+    background-color: #7E3AD8;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    padding: 1px 2px 3px;
+}
+main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt .price del {
+    font-size: 0.875rem;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: max-content;
+}
+/* new 끝 */
+/* =================== 이벤트 ==================== */
+main .event .title_tabmenu {}
+main .event .title_tabmenu .title {text-align: center;}
+main .event .title_tabmenu .title h2 {}
+main .event .title_tabmenu .title h2 span {margin-left: 4px;}
+main .event .title_tabmenu .title h2 span img {}
+main .event .banner {
+    display: flex;
+    justify-content: center;
+}
+main .event .banner a {}
+main .event .banner a:first-child {margin-right: 20px;}
+main .event .banner a img {
+    width: 100%; border-radius: 10px;
+    transition: all 0.2s;
+}
+main .event .banner a:hover img {
+    opacity: 80%;
+}
+/* ============인스타그램============ */
+main .instagram {margin: 120px 0;}
+main .instagram .title_tabmenu {}
+main .instagram .title_tabmenu .title {text-align: center;}
+main .instagram .title_tabmenu .title h2 {}
+main .instagram .title_tabmenu .title h2 span {color: #333;}
+main .instagram .title_tabmenu .title h2 span img {margin-left: 4px;}
+main .instagram .title_tabmenu .title p {
+    color: #626262;
+    font-size: 0.813rem;
+}
+/* 인스타 자바스크립트 */
+main .instagram .container {position: relative;}
+main .instagram .container .insta_s {}
+main .instagram .container .insta_s .swiper-wrapper {}
+main .instagram .container .insta_s .swiper-wrapper .swiper-slide {}
+main .instagram .container .insta_s .swiper-wrapper .swiper-slide .insta_photo {}
+main .instagram .container .insta_s .swiper-wrapper .swiper-slide .insta_photo img {width: 100%;}
