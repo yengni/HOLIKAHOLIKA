@@ -3,7 +3,8 @@
 $('.menu_bg').hide()
 var menu_state = true;
 //메뉴의 현재 상태를 알기 위한 논리형 데이터 생성
-$('.all_menu').on('click', function(){
+$('.all_menu').on('click', function(e){
+    e.preventDefault();
     menu_state = !menu_state
     console.log(`현재 상태는 : ${menu_state}`)
     if(menu_state == false){

@@ -37,7 +37,7 @@
         align-items: baseline;
     }
     footer .f_contents .f_logo_menu2 .f_logo {margin-bottom: 20px;}
-    footer .f_contents .f_logo_menu2 .f_menu2 {flex-flow: row wrap;;}
+    footer .f_contents .f_logo_menu2 .f_menu2 {flex-flow: row wrap;}
     footer .f_contents .f_logo_menu2 .f_menu2 a img {width: 100%;}
     footer .f_contents .f_txt_cs_sns .f_sns {
         position: absolute; bottom: 30px; right: 20px;
@@ -70,6 +70,8 @@
     }
     header .menu_bg {
         top: 75px;
+        height: 80vh;
+        overflow-y: auto;
     }
     header .menu_bg .menu_list {
         flex-flow: row wrap;
