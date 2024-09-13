@@ -156,6 +156,28 @@
         position: absolute; bottom: -50px;
         left: 20px;
     }
+    footer .f_menu1 {
+        padding: 20px;
+    }
+    footer .f_menu1 a {
+        font-size: 0.687rem;
+        margin-right: 20px;}
+    footer .f_contents .f_txt_cs_sns .f_txt p {
+        font-size: 0.687rem;
+        line-height: 2;
+    }
+    footer .f_contents .f_txt_cs_sns .f_txt p span {
+        font-size: 0.687rem;
+    }
+    footer .f_contents .f_txt_cs_sns .f_cs p strong {
+        font-size: 0.75rem;
+    }
+    footer .f_contents .f_txt_cs_sns .f_cs p {
+        font-size: 0.687rem;
+    }
+    footer .f_contents .f_txt_cs_sns .f_cs p:last-child {
+        font-size: 0.687rem;
+    }
 }
 @media screen and (max-width: 450px){
     header nav>a {
@@ -210,28 +232,7 @@
     main .new .container .new_s .swiper-wrapper .swiper-slide .product .new_txt del {
         font-size: 0.75rem;
     }
-    footer .f_menu1 {
-        padding: 20px;
-    }
-    footer .f_menu1 a {
-        font-size: 0.687rem;
-        margin-right: 20px;}
-    footer .f_contents .f_txt_cs_sns .f_txt p {
-        font-size: 0.687rem;
-        line-height: 2;
-    }
-    footer .f_contents .f_txt_cs_sns .f_txt p span {
-        font-size: 0.687rem;
-    }
-    footer .f_contents .f_txt_cs_sns .f_cs p strong {
-        font-size: 0.75rem;
-    }
-    footer .f_contents .f_txt_cs_sns .f_cs p {
-        font-size: 0.687rem;
-    }
-    footer .f_contents .f_txt_cs_sns .f_cs p:last-child {
-        font-size: 0.687rem;
-    }
+}
     @media screen and (max-width: 380px){
         main .pick .container .sub_product > a .photo .pick_txt h3 {
             font-size: 0.678rem;
